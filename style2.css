@@ -1,0 +1,89 @@
+
+.sex>.animated-button {
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(28, 49, 78);
+    background-color: rgb(32, 40, 77);
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    gap: 30px !important;
+    flex-direction: column !important;
+    
+
+}
+
+.animated-button:hover {
+    background-color: #161e38;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(245, 241, 244, 0.952);
+}
+
+.animated-button:active {
+    transform: scale(0.95);
+}
+
+.sex {
+  text-align: center;
+  margin-top: 180px;
+  position: absolute;
+  margin-left: 130px;
+  margin-right: 700px;
+ 
+  
+ 
+
+}
+
+.sex>.animated-button>a {
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .sex {
+        font-size: 14px;
+    }
+}
+
+.sex {
+    padding: 30px;
+   
+}
+
+@media (min-width: 768px) {
+    .sex {
+        padding: 20px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+button {
+    gap: 300px;
+}
+.sex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 150px;
+    text-align: center;
+    
+}
